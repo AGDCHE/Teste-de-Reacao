@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #c9c0c0;
+}
+
+h1 {
+  position: relative;
+    margin: 0px auto 10px;
+    width: 266px;
+}
+
+p {
+    position: relative;
+    margin: 0 auto 10px;
+    width: 293px;
+    text-align: center;
+}
+
+button {
+font-size: 20px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 50px;
+    z-index: 1;
+    border: none;
+    background: #FFD700;
+ box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.starting-light {
+    width: 343px;
+    display: block;
+    margin: 0 auto;
+}
+
+.support {
+    background: black;
+    position: relative;
+    top: 122px;
+    display: block;
+    margin: auto;
+    width: 317px;
+    height: 12px;
+    z-index: -1;
+}
+
+.farol {
+ background: black;
+    padding: 10px;
+    width: 65px;
+    height: 218px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.25);
+}
+
+.ligth-grey {
+    background: #2b2b2b;
+    margin-bottom: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.ligth-red {
+    background: #2b2b2b;
+    margin-bottom: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.light-rising {
+    background-color: red;
+}
+
+.light-risin {
+    background-color: #2b2b2b;
+}
+
+.stopwatch {
+    font-size: 48px;
+    margin: 10px auto;
+    width: 160px;
+}
+
+#finalTime {
+    font-size: 48px;
+    margin: 10px auto;
+    width: 160px;
+}
+
+.button {
+    display: relative;
+    width: 150px;
+    margin: 0 auto;
+    display: none;
+}
+
+.text {
+  margin: 10px auto 0;
+}
+
+.p {
+    margin-top: 10px;
+}
