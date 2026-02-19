@@ -12,13 +12,13 @@
 </head>
 
 <body>
+    <div class="container-main">
+        <h1>Teste sua Reação!</h1>
 
-    <h1>Teste sua Reação!</h1>
+        <p>Será que você tem uma reação tão rápida quanto a de um piloto de Fórmula 1 (F1)?</p>
 
-    <p>Será que você tem uma reação tão rápida quanto a de um piloto de Fórmula 1 (F1)?</p>
-
-    <p>Clique no botão abaixo para Descobrir!</p>
-
+        <p>Clique no botão abaixo para Descobrir!</p>
+    </div>
     <div class="support"></div>
 
     <div class="starting-light">
@@ -74,10 +74,12 @@
     <div>
         <button onclick="startTest()">Começar</button>
         <button class="button" id="restart-button" onclick="restart()">Reiniciar</button>
-        <button class="button1" id="reset-button" onclick="reset()">Resetar</button>
     </div>
 
     <p class="text"></p>
+
+<audio id="somSemaforo" src="assets/sounds/som-semaforo.mp3"></audio>
+<audio id="somFinish" src="assets/sounds/som-finish.mp3"></audio>
 
 </body>
 <script src="script.js"></script>

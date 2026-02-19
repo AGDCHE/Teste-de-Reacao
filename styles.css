@@ -5,37 +5,49 @@
     font-family: 'Inter', sans-serif;
 }
 
-body {
-    min-height: 100vh;
-    background: #c9c0c0;
+:root {
+    --blob-1: #ffcfcf;
+    --blob-2: #ffcfcf;
+    --blob-3: #ffcfcf;
+    --bg-solid-1: #7d6565fa;
+    --bg-solid-2: #7d6565fa;
 }
 
-h1 {
-    position: relative;
-    margin: 0px auto 10px;
-    width: 266px;
+body {
+    text-shadow: 0 0 10px #db4965;
+    min-height: 100vh;
+    background: radial-gradient(900px 800px at 0% 25%, var(--blob-1), transparent 60%),
+        radial-gradient(800px 450px at 110% 20%, var(--blob-2), transparent 65%),
+        radial-gradient(650px 400px at 55% 105%, var(--blob-3), transparent 60%),
+        linear-gradient(180deg, var(--bg-solid-1) 0%, var(--bg-solid-2) 100%);
 }
 
 p {
-    position: relative;
-    margin: 0 auto 10px;
     width: 293px;
     text-align: center;
 }
 
 button {
     font-size: 20px;
-    position: relative;
     display: block;
     margin: 0 auto;
     width: 150px;
     height: 50px;
-    z-index: 1;
     border: none;
-    background: #FFD700;
+    background: #db4965;
     box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     cursor: pointer;
+}
+
+.container-main {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .starting-light {
@@ -102,13 +114,6 @@ button {
 }
 
 .button {
-    display: relative;
-    width: 150px;
-    margin: 0 auto;
-    display: none;
-}
-
-.button1 {
     display: relative;
     width: 150px;
     margin: 0 auto;
