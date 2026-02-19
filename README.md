@@ -1,28 +1,30 @@
 <h1 align="center">Teste de Reação 🚦</h1>
 
-- Este projeto é um teste de reação simples, feito com HTML, CSS e JavaScript. O objetivo é medir a rapidez do usuário em responder a um estímulo na tela.
+- Um jogo interativo inspirado em largadas de corrida, desenvolvido com HTML, CSS e JavaScript para medir a velocidade de reação do usuário.
 
-## Demonstração
+## 🚀 Demonstração
 
 👉 [Acesse o projeto online aqui](https://agdche.github.io/Teste-de-Reacao/)
 
-## Como funciona
+## 🎮 Como funciona
 
-1. Clique em "Iniciar" e as cores vermelhas do semáforo se apagarem.
-2. Assim que o semáforo apagar, clique o mais rápido possível!
-3. O tempo da sua reação (em milissegundos) será exibido na tela.
-4. Clique em "Reiniciar" para novo teste.
+1. Clique em "Iniciar".
+2. As luzes do semáforo acendem em sequência.
+3. Quando todas as luzes apagarem, clique o mais rápido possível.
+4. O tempo de reação (em milissegundos) será exibido na tela.
+5. Clique em "Reiniciar" para tentar novamente.
 
-- Se clicar antes do semáforo apagar, o teste será reiniciado.
+⚠️ Se clicar antes das luzes apagarem, o teste será reiniciado automaticamente.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- Medição do tempo de reação do usuário
-- Detecção de clique antes do tempo (impedindo trapaça)
-- Resultado exibido de forma clara ao final do teste
-- Interface simples, intuitiva e responsiva
+- ⏱️ Medição precisa do tempo de reação
+- 🚫 Detecção de clique antecipado (anti-trapaça)
+- 🔊 Efeitos sonoros sincronizados com o semáforo
+- 🎨 Interface moderna, intuitiva e responsiva
+- 📱 Compatível com desktop e mobile
 
-## Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 
 - HTML
 - CSS
@@ -38,23 +40,23 @@
   
 3. Abra o arquivo index.html no navegador.
 
-## Aprendizados
+## 📚 Aprendizados
 
 - Controle de tempo e delays no JavaScript (setTimeout)
+- Sincronização de áudio com eventos visuais
 - Manipulação de eventos de clique e feedback instantâneo para o usuário
 - Condicionais para evitar tentativas de trapaça
 - Estruturação de projeto web responsivo
 
-## Melhorias Futuras
+## 🔮 Melhorias Futuras
 
-- Registrar o melhor tempo do usuário (high score)
-- Histórico dos últimos tempos
+- 🏆 Sistema de High Score (melhor tempo)
+- 📊 Histórico das últimas tentativas
 
-## Prints (notebook vaio e android redmi note 13)
+## 🖼️ Prints (notebook vaio e android redmi note 13)
 <div align="center">
-  <img src="assents-README.md/tela-teste-de-reação.png">
-  <img src="assents-README.md/tela-teste-de-reação-android.jpg" width="300px">
+<img src="assets/Imagens teste de Reação.png">
 </div>
 
-## Licença
+## 📄 Licença
 MIT
